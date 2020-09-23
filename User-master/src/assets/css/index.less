@@ -30,11 +30,15 @@ button {
     border-image: initial;
 	
 }
-
 body {
   background: url(../img/bg.jpg) no-repeat top center;
   line-height: 1.15;
-}
+
+.tem {
+	  width: 100%;
+	  height: 100%;
+  }
+} 
 header{
 	height: 6rem;
 	background:url(../img/head_bg.png)
@@ -66,7 +70,7 @@ header{
 //页面主体盒子
 .mainbox{
 	display: flex;
-	min-width: 1024px;
+	min-width: 1025px;
 	max-height: 1920px;
 	margin: 0 auto;
 	padding: .125rem .125rem 0;
@@ -82,9 +86,9 @@ header{
 	}
 	.panel{
 		position: relative;
-		height: 6.25rem;
+		height: 20.25rem;
 		padding: 0 .1875rem .5rem;
-		margin-bottom: .1875rem;
+		margin-bottom: .3875rem;
 		border: 1px solid rgba(25, 186, 139, 0.17);
 		background: rgba(255, 255, 255, 0.03);
 		&::before {
@@ -156,21 +160,22 @@ header{
 			// background: rgba(255, 255, 255, 0.06);
 		}
 		.panel-column-small-little{
-			height: 1.5rem;
-			padding: .1875rem;
-			margin: .1575rem;
+			height: 5.5rem;
+			padding: .2875rem;
+			margin: 1rem .75rem;
 			border: 1px solid rgba(25, 186, 139, 0.17);
 			// background: rgba(255, 255, 255, 0.10);
 			background-color: rgba(255, 255, 255, 0.87);
 			h3{
-				font-size: 0.6rem;
+				font-size: 2.5rem;
 				text-align:center;
 				margin:0.125rem 0 0.125rem;
+				padding: 0.8rem 0;
 				color: black;
 			}
 		}
 		.panel-column-small-title{
-			height: 1.5rem;			
+			height: 3.5rem;			
 			margin: .1rem;
 			
 			h1 {
@@ -183,7 +188,7 @@ header{
 			h2{
 				font-size: 1.9em;
 				text-align:center;
-				margin:0.125rem 0.125rem;
+				margin:1.8rem 0.125rem;
 				padding: 0.25rem;
 				color: rgba(255, 255, 255, 0.87);
 			}
@@ -192,7 +197,7 @@ header{
 	}
 	.panel-2{
 		position: relative;
-		height: 2.25rem;
+		height: 8.25rem;
 		// padding: 0 .1875rem ;
 		margin-top: .1875rem;
 		border: 1px solid rgba(25, 186, 139, 0.17);

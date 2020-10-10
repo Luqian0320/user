@@ -1,0 +1,46 @@
+.el-table {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+  color: #e0e1e5;
+}
+.el-table th,
+.el-table tr {
+  background-color: #0c1f33;
+}
+.el-table thead {
+  color: #dfe2e5;
+  font-weight: 500;
+}
+.pag {
+  position: relative;
+  text-align: center;
+}
+.btn-next {
+  position: relative;
+  display: flex;
+  margin: 40px;
+  left: 400px;
+}
+.el-range-editor.el-input__inner {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  margin: 0 10px;
+}
+.el-button + .el-button {
+  margin-left: 10px;
+  color: #FFF;
+  background-color: #0c2034;
+  border-color: #409EFF;
+}
+.el-date-editor--daterange.el-input,
+.el-date-editor--daterange.el-input__inner,
+.el-date-editor--timerange.el-input,
+.el-date-editor--timerange.el-input__inner {
+  width: 400px;
+}

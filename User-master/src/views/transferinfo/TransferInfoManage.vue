@@ -9,6 +9,7 @@
 		</header>
 		<!--main盒子主体部分-->
 		<div class="mainbox">
+			
 			<!-- 左側盒子 -->
 			<div class="column">
 				<div class="panel-left">

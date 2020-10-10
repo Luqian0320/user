@@ -5,6 +5,8 @@ const Hxzz = () => import('../views/hxzz/Hxzz.vue')
 
 const SaferunInfoManage = () => import('../../src/views/saferuninfo/SaferunInfoManage.vue')
 const TransferInfoManage = () => import('../../src/views/transferinfo/TransferInfoManage.vue')
+const QualityInfoManage = () => import('../../src/views/qualityinfo/QualityInfoManage.vue')
+
 
 const ComponyInfoManage = () => import('../../src/views/componyinfo/ComponyInfoManage.vue')
 const PostInfoManage = () => import('../../src/views/postinfo/PostInfoManage.vue')
@@ -23,11 +25,18 @@ Vue.use(VueRouter)
   // 	name:'SaferunInfoManage',
   // 	component:SaferunInfoManage,
   // },
+  // {
+  // 	path:'/',
+  // 	name:'TransferInfoManage',
+  // 	component:TransferInfoManage,
+  // },
   {
   	path:'/',
-  	name:'TransferInfoManage',
-  	component:TransferInfoManage,
+  	name:'QualityInfoManage',
+  	component:QualityInfoManage,
   },
+  
+  
   // {
   //   path: '/home',
   //   name: 'Home',

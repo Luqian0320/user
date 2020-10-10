@@ -187,8 +187,8 @@ header .show-time {
 }
 .mainbox .panel-2 .show-button {
   position: absolute;
-  top: 0.5rem;
-  right: .25rem;
+  top: 2.5rem;
+  right: 2.25rem;
   line-height: 0.9375rem;
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.3125rem;
@@ -213,4 +213,20 @@ header .show-time {
   padding: 12px 20px;
   font-size: 14px;
   border-radius: 4px;
+}
+.mainbox .panel-2 .detail-button {
+  position: absolute;
+  top: 2.5rem;
+  right: 19.75rem;
+  line-height: 0.9375rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.3125rem;
+}
+.mainbox .panel-2 .block {
+  position: absolute;
+  top: 2.5rem;
+  left: 24.25rem;
+  line-height: 0.9375rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.3125rem;
 }

@@ -45,7 +45,7 @@
 					<div class="qua-up">
 						<div class="up">
 							<div class="little">
-								<div class="hz"><a href="#">DR</a></div>
+								<div class="hz">东部C线</div>
 								
 							</div>
 							<div class="little">
@@ -54,7 +54,7 @@
 						</div>
 						<div class="up">
 							<div class="little">
-								<div class="hz">目标</div>
+								<div class="hz">东部D线</div>
 							</div>
 							<div class="little">
 								<div class="hz">88.5</div>
@@ -62,10 +62,26 @@
 						</div>
 						<div class="up">
 							<div class="little">
-								<div class="hz">实际</div>
+								<div class="hz">西部B线</div>
 							</div>
 							<div class="little">
 								<div class="hz">22</div>
+							</div>
+						</div>
+						<div class="up">
+							<div class="little">
+								<div class="hz">西部C线</div>
+							</div>
+							<div class="little">
+								<div class="hz">33</div>
+							</div>
+						</div>
+						<div class="up">
+							<div class="little">
+								<div class="hz">合计</div>
+							</div>
+							<div class="little">
+								<div class="hz"></div>
 							</div>
 						</div>
 						
@@ -75,7 +91,7 @@
 					<div class="qua-dowm">
 						<div class="down">
 							<div class="little">
-								 <div class="hz1"><a href="#">总装责任错漏装</a></div> 
+								 <div class="hz1">东部C线</div> 
 								
 							</div>
 							<div class="little">
@@ -84,7 +100,7 @@
 						</div>
 						<div class="down">
 							<div class="little">
-								<div class="hz3">拦截问题</div>
+								<div class="hz3">东部D线</div>
 							</div>
 							<div class="little">
 								<div class="hz">2</div>
@@ -92,11 +108,29 @@
 						</div>
 						<div class="down">
 							<div class="little">
-								<div class="hz"><a href="#">变化点</a></div>
+								<div class="hz">西部B线</div>
 								
 							</div>
 							<div class="little">
 								<div class="hz">7</div>
+							</div>
+						</div>
+						<div class="down">
+							<div class="little">
+								<div class="hz">西部C线</div>
+								
+							</div>
+							<div class="little">
+								<div class="hz">7</div>
+							</div>
+						</div>
+						<div class="down">
+							<div class="little">
+								<div class="hz">合计</div>
+								
+							</div>
+							<div class="little">
+								<div class="hz"></div>
 							</div>
 						</div>
 					</div>
@@ -148,7 +182,7 @@
 
 <style scoped>
 	@import "../../assets/css/pub.css";
-	@import "../../assets/css/quality.css";
+	@import "../../assets/css/false.css";
 	.btn{
 		
 		    position: relative;

@@ -48,17 +48,18 @@
 					<el-table :data="tableData" style="width: 100%">
 						<el-table-column prop="date" label="" width="180">
 						</el-table-column>
-						<el-table-column prop="drk" label="待入库" width="180">
+						<el-table-column prop="drk" label="下线" width="180">
 						</el-table-column>
-						<el-table-column prop="phl" label="待过线跑坏路">
+						<el-table-column prop="phl" label="检测线">
 						</el-table-column>
-						<el-table-column prop="bhlz" label="BH流转">
+						<el-table-column prop="bhlz" label="淋雨">
 						</el-table-column>
-						<el-table-column prop="sjlz" label="实际流转">
+						<el-table-column prop="sjlz" label="Care线">
 						</el-table-column>
-						<el-table-column prop="hj" label="合计">
+						<el-table-column prop="hj" label="DR">
 						</el-table-column>
-						
+						<el-table-column prop="time" label="时间">
+						</el-table-column>
 					</el-table>
 
 				</div>
@@ -108,7 +109,8 @@
 					phl: '10',
 					bhlz:'9',
 					sjlz:'8',
-					hj:'10'
+					hj:'10',
+					time:'16:45'
 				}, {
 					date: 'CN180C',
 					drk: '12',

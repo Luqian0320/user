@@ -1,4 +1,4 @@
-an<template>
+<template>
     <div>岗位信息页面</div>
 </template>
 <script>

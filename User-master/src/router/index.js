@@ -6,7 +6,8 @@ const Hxzz = () => import('../views/hxzz/Hxzz.vue')
 const SaferunInfoManage = () => import('../../src/views/saferuninfo/SaferunInfoManage.vue')
 const TransferInfoManage = () => import('../../src/views/transferinfo/TransferInfoManage.vue')
 const QualityInfoManage = () => import('../../src/views/qualityinfo/QualityInfoManage.vue')
-
+const DRInfoManage = () => import('../../src/views/qualityinfo/DRInfoManage.vue')
+const FalseInfoManage = () => import('../../src/views/qualityinfo/FalseInfoManage.vue')
 
 const ComponyInfoManage = () => import('../../src/views/componyinfo/ComponyInfoManage.vue')
 const PostInfoManage = () => import('../../src/views/postinfo/PostInfoManage.vue')
@@ -30,10 +31,20 @@ Vue.use(VueRouter)
   // 	name:'TransferInfoManage',
   // 	component:TransferInfoManage,
   // },
+  // {
+  // 	path:'/',
+  // 	name:'QualityInfoManage',
+  // 	component:QualityInfoManage,
+  // },
+  // {
+  // 	path:'/',
+  // 	name:'DRInfoManage',
+  // 	component:DRInfoManage,
+  // },
   {
   	path:'/',
-  	name:'QualityInfoManage',
-  	component:QualityInfoManage,
+  	name:'FalseInfoManage',
+  	component:FalseInfoManage,
   },
   
   

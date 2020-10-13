@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-const Home = () => import('../views/home/Home.vue')
 const Hxzz = () => import('../views/hxzz/Hxzz.vue')
 
 const SaferunInfoManage = () => import('../../src/views/saferuninfo/SaferunInfoManage.vue')
@@ -9,74 +8,72 @@ const QualityInfoManage = () => import('../../src/views/qualityinfo/QualityInfoM
 const DRInfoManage = () => import('../../src/views/qualityinfo/DRInfoManage.vue')
 const FalseInfoManage = () => import('../../src/views/qualityinfo/FalseInfoManage.vue')
 
-const ComponyInfoManage = () => import('../../src/views/componyinfo/ComponyInfoManage.vue')
-const PostInfoManage = () => import('../../src/views/postinfo/PostInfoManage.vue')
-const OrderInfoManage = () => import('../../src/views/orderinfo/OrderInfoManage.vue')
-const PostType = () => import('../views/datadictionary/DataDictionary.vue')
+const ProduceInfoManage = () => import('../../src/views/produceinfo/ProduceInfoManage.vue')
+const PersonnelInfoManage = () => import('../../src/views/personnelinfo/PersonnelInfoManage.vue')
+const EnergyInfoManage = () => import('../../src/views/energyinfo/EnergyInfoManage.vue')
+const EquipmentInfoManage = () => import('../../src/views/equipmentinfo/EquipmentInfoManage.vue')
+
 Vue.use(VueRouter)
-//定义路由
+//定义路由，component代表组件
   const routes = [
-  // {
-  //   path: '/',
-  //   name: 'Hxzz',
-  //   component: Hxzz,
-  // },
-  // {
-  // 	path:'/',
-  // 	name:'SaferunInfoManage',
-  // 	component:SaferunInfoManage,
-  // },
-  // {
-  // 	path:'/',
-  // 	name:'TransferInfoManage',
-  // 	component:TransferInfoManage,
-  // },
-  // {
-  // 	path:'/',
-  // 	name:'QualityInfoManage',
-  // 	component:QualityInfoManage,
-  // },
-  // {
-  // 	path:'/',
-  // 	name:'DRInfoManage',
-  // 	component:DRInfoManage,
-  // },
   {
-  	path:'/',
+    path: '/',
+    name: 'Hxzz',
+    component: Hxzz,
+  },
+  {
+    path: '/hxzz',
+    name: 'Hxzz',
+    component: Hxzz,
+  },
+  {
+  	path:'/SaferunInfoManage',
+  	name:'SaferunInfoManage',
+  	component:SaferunInfoManage,
+  },
+  {
+  	path:'/TransferInfoManage',
+  	name:'TransferInfoManage',
+  	component:TransferInfoManage,
+  },
+  {
+  	path:'/QualityInfoManage',
+  	name:'QualityInfoManage',
+  	component:QualityInfoManage,
+  },
+  {
+  	path:'/DRInfoManage',
+  	name:'DRInfoManage',
+  	component:DRInfoManage,
+  },
+  {
+  	path:'/FalseInfoManage',
   	name:'FalseInfoManage',
   	component:FalseInfoManage,
   },
+  {
+  	path:'/PersonnelInfoManage',
+  	name:'PersonnelInfoManage',
+  	component:PersonnelInfoManage,
+  },
+  {
+  	path:'/ProduceInfoManage',
+  	name:'ProduceInfoManage',
+  	component:ProduceInfoManage,
+  },
+  {
+  	path:'/EnergyInfoManage',
+  	name:'EnergyInfoManage',
+  	component:EnergyInfoManage,
+  },
+  {
+  	path:'/EquipmentInfoManage',
+  	name:'EquipmentInfoManage',
+  	component:EquipmentInfoManage,
+  },
   
-  
-  // {
-  //   path: '/home',
-  //   name: 'Home',
-  //   component: Home,
-  //   children:[
-  //     {
-  //       path: '/componyinfomanage',
-  //       name: '企业信息',
-  //       component: ComponyInfoManage,
-  //     },
-  //     {
-  //       path: '/postinfomange',
-  //       name: '岗位信息',
-  //       component: PostInfoManage,
-  //     },
-  //     {
-  //       path: '/orderinfomange',
-  //       name: '订单信息',
-  //       component: OrderInfoManage,
-  //     },
-  //     {
-  //       path: '/datamangeinfo',
-  //       name: '订单信息',
-  //       component: PostType,
-  //     },
-  //   ]
-  // },
 ]
-
+//实例化
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,

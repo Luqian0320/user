@@ -14,26 +14,27 @@
 			<div class="column">
 				<div class="panel-left">
 					<div class="panel-left-small">
-						<h1><a href="#">安全运行</a></h1>
+						<!-- <h1><a href="#">安全运行</a></h1> -->	
+						<h1><router-link :to="{name:'SaferunInfoManage'}">安全运行</router-link></h1>					
 					</div>
 					<div class="panel-left-small">
-						<h1><a href="scgl.html">生产管理</a></h1>
+						<h1><router-link :to="{name:'ProduceInfoManage'}">生产管理</router-link></h1>
 					</div>
 					<div class="panel-left-small">
-						<h1><a href="lzcsj.html">流转车数据</a></h1>
+						<h1><router-link :to="{name:'TransferInfoManage'}">流转车数据</router-link></h1>
 					</div>
 					<div class="panel-left-small">
-						<h1><a href="zl.html">质量</a></h1>
+						<h1><router-link :to="{name:'QualityInfoManage'}">质量管理</router-link></h1>
 					</div>
 					<div class="panel-left-small">
-						<h1><a href="rygl.html">人员管理</a></h1>
+						<h1><router-link :to="{name:'PersonnelInfoManage'}">人员管理</router-link></h1>
 					</div>
 					<div class="panel-left-small">
-						<h1><a href="nhgl.html">能耗管理</a></h1>
+						<h1><router-link :to="{name:'EnergyInfoManage'}">能耗管理</router-link></h1>
 					</div>
-
+					
 					<div class="panel-left-small">
-						<h1><a href="sbzt.html">设备状态</a></h1>
+				        <h1><router-link :to="{name:'EquipmentInfoManage'}">设备状态</router-link></h1>
 					</div>
 				</div>
 			</div>

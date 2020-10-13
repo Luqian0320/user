@@ -40,41 +40,51 @@
 			<!-- main -->
 			<div  class="column">
 				
-				<!-- 安全运行页面开始 -->
-				<div class="panel-main" >
-					<el-row :gutter="20" type="flex"  class="row-b" justify="space-around">
-					  <el-col :span="6" class="row-c">
-						  <div class="grid-content bg-purple">损工事故：</div>
-						  <div class="inputsc"></div>
-						  </el-col>
-					  <el-col :span="6" class="row-c"><div class="grid-content bg-purple">可记录事故：</div></el-col>
-					  <el-col :span="6" class="row-c"><div class="grid-content bg-purple">急救事故：</div></el-col>
-					  <el-col :span="6" class="row-c"><div class="grid-content bg-purple">险肇事故</div></el-col>
-					</el-row>
-					<el-row :gutter="20" type="flex" class="row-bg" justify="space-around">
-					  <el-col :span="6"><div class="grid-content bg-purple">相关方事故：</div></el-col>
-					  <el-col :span="6"><div class="grid-content bg-purple">火险事故：</div></el-col>
-					  <el-col :span="6"><div class="grid-content bg-purple">环境事故：</div></el-col>
-					  
-					</el-row>
-				<!-- 安全绿十字 -->
-					    <div class="content">
-					        <div class="cross up"></div>
-					        <div class="cross left"></div>
-					        <div class="cross icon"></div>
-					        <div class="cross right"></div>
-					        <div class="cross down "></div>
-					    </div>
-
-										
+				<!-- 页面开始 -->
+				<div id="" class="panel-main" >
+					<div class="panel-main-column-small">
+						<div class="panel-main-column-title"></div>
+						<div class="panel-main-column-title"><h1>目标台量</h1></div>
+						<div class="panel-main-column-title"><h1>实际台量</h1></div>
+						<div class="panel-main-column-title"><h1>实际效率</h1></div>
+					</div>
+					<div class="panel-main-column-little">
+						<div class="panel-main-column-title"><h1>东部C线</h1></div>
+						<div class="panel-main-column-small-little"><h3>显示</h3></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+						
+					</div>
+					<div class="panel-main-column-little">
+						<div class="panel-main-column-title"><h1>东部D线</h1></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+					</div>
+					<div class="panel-main-column-little">
+						<div class="panel-main-column-title"><h1>西部B线</h1></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+					</div>
+					<div class="panel-main-column-little">
+						<div class="panel-main-column-title"><h1>西部C线</h1></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+					</div>
+					<div class="panel-main-column-little">
+						<div class="panel-main-column-title"><h1>合计</h1></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+						<div class="panel-main-column-small-little"></div>
+					</div>
 				</div>
-				<!-- 安全运行结束 -->
+				<!-- 结束 -->
 				<!-- 底部盒子 -->
 				<div class="panel-main-footer">
 					<div class="show-button">
-							<!-- <button type="button" class="el-button--detal" @click=jumpHxzz()>
-								<span>返回首页</span>
-							</button> -->	
+							
 							<el-button type="primary" @click="jumpHxzz">返回首页</el-button>
 					</div>
 					<div class="btn-next">
@@ -119,6 +129,7 @@
 	}
 </script>
 
-<style scoped>
-		@import "../../assets/css/aqyx.css";
+<style >
+	  @import "../../assets/css/pub.css";
+		@import "../../assets/css/produce.css";
 </style>

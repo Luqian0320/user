@@ -209,7 +209,7 @@
 				return currentdate;
 			},
 			find() {
-				 this.$router.push('/saferuninfo')
+				 this.$router.push('/SaferunInfoManage')
 				// window.location.href="SaferunInfoManage.vue"
 			}
 		}, 

@@ -1,0 +1,106 @@
+.panel-qua {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+}
+.panel-qua .qua-up {
+  position: relative;
+  display: flex;
+  height: auto;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  padding: .1rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.1);
+}
+.panel-qua .qua-up .up {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 10.85rem;
+  padding: .3rem;
+  margin: 1rem 1.5rem 1rem 1.5rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.1);
+}
+.panel-qua .qua-up .up .little {
+  position: relative;
+  display: flex;
+  height: auto;
+  text-align: center;
+  width: 17.85rem;
+  padding: .3rem;
+  margin: 0.5rem;
+}
+.panel-qua .qua-up .up .little .hz {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
+.panel-qua .qua-dowm {
+  position: relative;
+  display: flex;
+  height: auto;
+  margin: 2rem 1rem;
+  padding: .1rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.1);
+}
+.panel-qua .qua-dowm .down {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 7.85rem;
+  width: 10.85rem;
+  padding: .3rem;
+  margin: 1rem 1.5rem 1rem 1.5rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.1);
+}
+.panel-qua .qua-dowm .down .little {
+  position: relative;
+  display: flex;
+  height: auto;
+  text-align: center;
+  width: 17.85rem;
+  padding: .3rem;
+  margin: 0.5rem;
+}
+.panel-qua .qua-dowm .down .little .hz3 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
+.panel-qua .qua-dowm .down .little .hz {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
+.panel-qua .qua-dowm .down .little .hz1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}

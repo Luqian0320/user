@@ -1,0 +1,69 @@
+.panel-main-column-small {
+  height: auto;
+  padding: .1875rem;
+  margin: .1575rem;
+  display: block;
+}
+.panel-main-column-small .title {
+  height: 5.5rem;
+  margin: .5rem;
+  padding: 0.25rem;
+}
+.panel-main-column-small .title h1 {
+  font-size: 1.9em;
+  text-align: center;
+  margin-top: 1.3rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+.panel-main-column-small .title h2 {
+  font-size: 1.9em;
+  text-align: center;
+  margin: 0.125rem 0.125rem;
+  padding: 0.25rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+.panel-main-column-little {
+  height: auto;
+  padding: .1875rem;
+  margin: .1575rem;
+}
+.panel-main-column-little .panel-main-column-title {
+  height: 5.5rem;
+  margin: .5rem;
+  padding: 0.25rem;
+}
+.panel-main-column-little .panel-main-column-title h1 {
+  font-size: 1.9em;
+  text-align: center;
+  margin-top: 1.3rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+.panel-main-column-little .panel-main-column-title h2 {
+  font-size: 1.9em;
+  text-align: center;
+  margin: 0.125rem 0.125rem;
+  padding: 0.25rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+.panel-main-column-little .panel-main-column-small-little {
+  height: 5rem;
+  width: 7rem;
+  padding: .1875rem;
+  margin: .85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background-color: rgba(255, 255, 255, 0.87);
+}
+.panel-main-column-little .panel-main-column-small-little h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0.125rem 0 0.125rem;
+  color: black;
+}
+.panel-main-footer {
+  height: 2.25rem;
+  margin-top: .1875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+}

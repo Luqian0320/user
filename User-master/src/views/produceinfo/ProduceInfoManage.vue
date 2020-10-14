@@ -43,10 +43,10 @@
 				<!-- 页面开始 -->
 				<div id="" class="panel-main" >
 					<div class="panel-main-column-small">
-						<div class="panel-main-column-title"></div>
-						<div class="panel-main-column-title"><h1>目标台量</h1></div>
-						<div class="panel-main-column-title"><h1>实际台量</h1></div>
-						<div class="panel-main-column-title"><h1>实际效率</h1></div>
+						<div class="title"></div>
+						<div class="title"><h1>目标台量</h1></div>
+						<div class="title"><h1>实际台量</h1></div>
+						<div class="title"><h1>实际效率</h1></div>
 					</div>
 					<div class="panel-main-column-little">
 						<div class="panel-main-column-title"><h1>东部C线</h1></div>

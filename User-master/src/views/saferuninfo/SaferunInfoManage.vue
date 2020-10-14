@@ -41,40 +41,68 @@
 			<div  class="column">
 				
 				<!-- 安全运行页面开始 -->
-				<div class="panel-main" >
-					<el-row :gutter="20" type="flex"  class="row-b" justify="space-around">
-					  <el-col :span="6" class="row-c">
-						  <div class="grid-content bg-purple">损工事故：</div>
-						  <div class="inputsc"></div>
-						  </el-col>
-					  <el-col :span="6" class="row-c"><div class="grid-content bg-purple">可记录事故：</div></el-col>
-					  <el-col :span="6" class="row-c"><div class="grid-content bg-purple">急救事故：</div></el-col>
-					  <el-col :span="6" class="row-c"><div class="grid-content bg-purple">险肇事故</div></el-col>
-					</el-row>
-					<el-row :gutter="20" type="flex" class="row-bg" justify="space-around">
-					  <el-col :span="6"><div class="grid-content bg-purple">相关方事故：</div></el-col>
-					  <el-col :span="6"><div class="grid-content bg-purple">火险事故：</div></el-col>
-					  <el-col :span="6"><div class="grid-content bg-purple">环境事故：</div></el-col>
-					  
-					</el-row>
+				<div class="panel-main-aq" >
+					<div class="safe-con">
+						<div class="con-lit">
+							<div class="lit">
+							损工事故：<button type="button" class="btn-style">0</button>起
+							</div>
+						</div>
+						<div class="con-lit">
+							<div class="lit">
+							损工事故：<button type="button" class="btn-style">0</button>起
+							</div>
+						</div>
+						<div class="con-lit">
+							<div class="lit">
+							损工事故：<button type="button" class="btn-style">0</button>起
+							</div>
+						</div>
+						<div class="con-lit">
+							<div class="lit">
+							损工事故：<button type="button" class="btn-style">0</button>起
+							</div>
+						</div>
+						<div class="con-lit">
+							<div class="lit">
+							损工事故：<button type="button" class="btn-style">0</button>起
+							</div>
+						</div>
+						<div class="con-lit">
+							<div class="lit">
+							损工事故：<button type="button" class="btn-style">0</button>起
+							</div>
+						</div>
+						<div class="con-lit">
+							<div class="lit">
+							损工事故：<button type="button" class="btn-style">0</button>起
+							</div>
+						</div>
+					</div>
+					
 				<!-- 安全绿十字 -->
+				
 					    <div class="content">
-					        <div class="cross up"></div>
-					        <div class="cross left"></div>
-					        <div class="cross icon"></div>
-					        <div class="cross right"></div>
-					        <div class="cross down "></div>
+					       <div class="cross">
+							   <!-- <div class="before"></div>
+							   <div class="after"></div> -->
+							 <div class="up"></div>
+							  <div class="left"></div>
+							  <div class="icon"></div>
+							  <div class="right"></div>
+							  <div class="down"></div>
+						   </div>
+						   <div class="explain">
+							   
+						   </div>
 					    </div>
 
-										
+									
 				</div>
 				<!-- 安全运行结束 -->
 				<!-- 底部盒子 -->
 				<div class="panel-main-footer">
-					<div class="show-button">
-							<!-- <button type="button" class="el-button--detal" @click=jumpHxzz()>
-								<span>返回首页</span>
-							</button> -->	
+					<div class="btn">	
 							<el-button type="primary" @click="jumpHxzz">返回首页</el-button>
 					</div>
 					<div class="btn-next">
@@ -119,6 +147,17 @@
 	}
 </script>
 
-<style scoped>
+<style >
 		@import "../../assets/css/aqyx.css";
+		@import "../../assets/css/pub.css";
+		.btn{
+			
+			    position: relative;
+			    display: flex;
+			    justify-content: flex-end;
+			    height: 2.25rem;
+			    padding: 0 .1875rem;
+			    margin-top: 1.1875rem;
+			
+		}	
 </style>

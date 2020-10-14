@@ -155,7 +155,7 @@
 	}
 </script>
 
-<style scoped>
+<style >
 	@import "../../assets/css/pub.css";
 	@import "../../assets/css/lzcsj.css";
 </style>

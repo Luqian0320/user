@@ -7,6 +7,7 @@ const TransferInfoManage = () => import('../../src/views/transferinfo/TransferIn
 const QualityInfoManage = () => import('../../src/views/qualityinfo/QualityInfoManage.vue')
 const DRInfoManage = () => import('../../src/views/qualityinfo/DRInfoManage.vue')
 const FalseInfoManage = () => import('../../src/views/qualityinfo/FalseInfoManage.vue')
+const ChangeInfoManage = () => import('../../src/views/qualityinfo/ChangeInfoManage.vue')
 
 const ProduceInfoManage = () => import('../../src/views/produceinfo/ProduceInfoManage.vue')
 const PersonnelInfoManage = () => import('../../src/views/personnelinfo/PersonnelInfoManage.vue')
@@ -50,6 +51,11 @@ Vue.use(VueRouter)
   	path:'/FalseInfoManage',
   	name:'FalseInfoManage',
   	component:FalseInfoManage,
+  },
+  {
+  	path:'/ChangeInfoManage',
+  	name:'ChangeInfoManage',
+  	component:ChangeInfoManage,
   },
   {
   	path:'/PersonnelInfoManage',

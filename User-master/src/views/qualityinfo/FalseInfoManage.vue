@@ -41,8 +41,11 @@
 			<!-- main -->
 			<div class="column">
 
-				<!-- 质量页面开始 -->
-				<div class="panel-qua">
+				<!-- 质量页面责任错漏装start -->
+				<div class="panel-qua-false">
+					<div class="qua1">
+						总装责任错漏装
+					</div>
 					<div class="qua-up">
 						<div class="up">
 							<div class="little">
@@ -89,6 +92,9 @@
 						
 					</div>
 					
+					<div class="qua2">
+						总装拦截问题
+					</div>
 					<div class="qua-dowm">
 						<div class="down">
 							<div class="little">
@@ -141,8 +147,9 @@
 				<!-- 底部盒子 -->
 				
 					<div class="btn">
-						 <el-button  round>新建/保存</el-button>
-						  <el-button  round>点击编辑</el-button>
+						 <el-button  round>日期选择</el-button>
+						  <el-button  round>查看</el-button>
+						  <el-button  round>查看明细</el-button>
 						  </div>
 				
 				

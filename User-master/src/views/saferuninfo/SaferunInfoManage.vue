@@ -86,29 +86,73 @@
 					       <div class="cross">
 							   <!-- <div class="before"></div>
 							   <div class="after"></div> -->
-							 <div class="up"></div>
-							  <div class="left"></div>
-							  <div class="icon"></div>
-							  <div class="right"></div>
-							  <div class="down"></div>
+							 <div class="up">
+								 <button type="button" class="btn-cross">1</button>
+								 <button type="button" class="btn-cross">2</button>
+								 <button type="button" class="btn-cross">3</button>
+								 <button type="button" class="btn-cross">4</button>
+								 <button type="button" class="btn-cross">5</button>
+								 <button type="button" class="btn-cross">6</button>
+								 </div>
+							  <div class="left">
+								  <button type="button" class="btn-cross">7</button>
+								  <button type="button" class="btn-cross">8</button>
+								  <button type="button" class="btn-cross">14</button>
+								  <button type="button" class="btn-cross">15</button>
+								  <button type="button" class="btn-cross">21</button>
+								  <button type="button" class="btn-cross">22</button>
+								 
+							  </div>
+							  <div class="middle">
+								<button type="button" class="btn-cross">9</button>
+								<button type="button" class="btn-cross">10</button>
+								<button type="button" class="btn-cross">11</button>
+								<button type="button" class="btn-cross">16</button>
+								<button type="button" class="btn-cross">17</button>
+								<button type="button" class="btn-cross">18</button>
+								<button type="button" class="btn-cross">23</button>
+								  <button type="button" class="btn-cross">24</button>
+								  <button type="button" class="btn-cross">25</button>
+								 
+							  </div>
+							  <div class="right">
+								  <button type="button" class="btn-cross">12</button>
+								  <button type="button" class="btn-cross">13</button>
+								  <button type="button" class="btn-cross">19</button>
+								  <button type="button" class="btn-cross">20</button>
+								  <button type="button" class="btn-cross">26</button>
+								  <button type="button" class="btn-cross">27</button>
+							  </div>
+							  <div class="down">
+								<button type="button" class="btn-cross">28</button>
+								<button type="button" class="btn-cross">29</button>
+								<button type="button" class="btn-cross">30</button>   
+							  </div>
 						   </div>
+						   <!-- 安全绿十字end -->
+							   <!-- 说明开始 -->
 						   <div class="explain">
-							   
+							   <div class="rem">说明Remark：</div>
+							   <div class="rem"><button type="button" class="btn-ex1"></button>绿色Green：无事故No incident</div>   
+							   <div class="rem"><button type="button" class="btn-ex2"></button>灰色Grey ：险肇事故Near miss case </div> 
+							  <div class="rem"><button type="button" class="btn-ex3"></button>蓝色Blue ：急救事故 First aid case</div>
+							  <div class="rem"><button type="button" class="btn-ex4"></button>黄色Yellow：可记录事故Recordable case   </div>
+							  <div class="rem"><button type="button" class="btn-ex5"></button> 红色Red：损失工作日事故Lost work day case</div>
+
 						   </div>
+						   <!-- 说明结束 -->
 					    </div>
 
-									
+								
 				</div>
 				<!-- 安全运行结束 -->
-				<!-- 底部盒子 -->
-				<div class="panel-main-footer">
+				<!-- 底部 -->
+				
 					<div class="btn">	
 							<el-button type="primary" @click="jumpHxzz">返回首页</el-button>
 					</div>
-					<div class="btn-next">
-						
-					</div>
-				</div>
+					
+				
 			</div>
 			
 		</div>

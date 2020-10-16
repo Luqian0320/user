@@ -93,7 +93,7 @@
 						</div>
 						<div class="down">
 							<div class="little">
-								<div class="hz"><a href="#">变化点</a></div>
+								<div class="hz"><router-link :to="{name:'ChangeInfoManage'}">变化点</router-link></a></div>
 								
 							</div>
 							<div class="little">
@@ -150,6 +150,7 @@
 <style >
 	@import "../../assets/css/pub.css";
 	@import "../../assets/css/quality.css";
+	
 	.btn{
 		
 		    position: relative;

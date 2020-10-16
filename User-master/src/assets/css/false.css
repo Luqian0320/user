@@ -1,4 +1,4 @@
-.panel-qua {
+.panel-qua-false {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -6,16 +6,42 @@
   padding: 0 .1875rem .5rem;
   margin-bottom: .1875rem;
 }
-.panel-qua .qua-up {
+.panel-qua-false .qua1 {
+  position: relative;
+  left: -29.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: auto;
+  text-align: center;
+  margin: 0;
+  padding: .3rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: #f5990cfc;
+}
+.panel-qua-false .qua2 {
+  position: relative;
+  left: -29.8rem;
+  top: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: auto;
+  margin: 0;
+  padding: .3rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: #f5990cfc;
+}
+.panel-qua-false .qua-up {
   position: relative;
   display: flex;
   height: auto;
   margin: 0.5rem 1rem 0.5rem 1rem;
   padding: .1rem;
-  border: 1px solid rgba(25, 186, 139, 0.17);
-  background: rgba(255, 255, 255, 0.1);
 }
-.panel-qua .qua-up .up {
+.panel-qua-false .qua-up .up {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -26,7 +52,7 @@
   border: 1px solid rgba(25, 186, 139, 0.17);
   background: rgba(255, 255, 255, 0.1);
 }
-.panel-qua .qua-up .up .little {
+.panel-qua-false .qua-up .up .little {
   position: relative;
   display: flex;
   height: auto;
@@ -35,7 +61,7 @@
   padding: .3rem;
   margin: 0.5rem;
 }
-.panel-qua .qua-up .up .little .hz {
+.panel-qua-false .qua-up .up .little .hz {
   display: flex;
   position: relative;
   justify-content: center;
@@ -45,16 +71,14 @@
   font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
 }
-.panel-qua .qua-dowm {
+.panel-qua-false .qua-dowm {
   position: relative;
   display: flex;
   height: auto;
   margin: 2rem 1rem;
   padding: .1rem;
-  border: 1px solid rgba(25, 186, 139, 0.17);
-  background: rgba(255, 255, 255, 0.1);
 }
-.panel-qua .qua-dowm .down {
+.panel-qua-false .qua-dowm .down {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +89,7 @@
   border: 1px solid rgba(25, 186, 139, 0.17);
   background: rgba(255, 255, 255, 0.1);
 }
-.panel-qua .qua-dowm .down .little {
+.panel-qua-false .qua-dowm .down .little {
   position: relative;
   display: flex;
   height: auto;
@@ -74,7 +98,7 @@
   padding: .3rem;
   margin: 0.5rem;
 }
-.panel-qua .qua-dowm .down .little .hz3 {
+.panel-qua-false .qua-dowm .down .little .hz3 {
   display: flex;
   position: relative;
   justify-content: center;
@@ -84,7 +108,7 @@
   font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
 }
-.panel-qua .qua-dowm .down .little .hz {
+.panel-qua-false .qua-dowm .down .little .hz {
   display: flex;
   position: relative;
   justify-content: center;
@@ -94,7 +118,7 @@
   font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
 }
-.panel-qua .qua-dowm .down .little .hz1 {
+.panel-qua-false .qua-dowm .down .little .hz1 {
   display: flex;
   position: relative;
   justify-content: center;

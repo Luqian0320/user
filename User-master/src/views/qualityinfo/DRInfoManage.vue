@@ -90,7 +90,7 @@
 				     </el-date-picker>
 				   
 				 <el-button round>查看</el-button>
-				<el-button type="primary">返回首页</el-button>
+				<el-button type="primary" @click="re_qua">返回质量管理</el-button>
 				 					</div>
 			</div>
 
@@ -152,7 +152,11 @@
 				}
 				var currentdate = year + "年" + month + "月" + strDate + "日";
 				return currentdate;
-			}
+			},
+			 re_qua() {
+				 this.$router.push('/QualityInfoManage')
+				
+			} 
 		}
 	}
 </script>

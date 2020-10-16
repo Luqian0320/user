@@ -42,11 +42,42 @@
 				
 				<!-- 页面开始 -->
 				<div class="panel-main" >
-					
-					
-				
-					    
-
+					<div class="Table_style">
+						<el-table
+						    :data="tableData"
+							border
+						    style="width: 100%"
+						    :row-class-name="tableRowClassName">
+						    <el-table-column
+						      prop="scx"
+						      label="生产线">
+						    </el-table-column>
+						    <el-table-column
+						      prop="dd"
+						      label="断点">
+						    </el-table-column>
+						    <el-table-column
+						      prop="PAA"
+						      label="PAA">
+						    </el-table-column>
+							<el-table-column
+							  prop="PTR"
+							  label="PTR">
+							</el-table-column>
+							<el-table-column
+							  prop="gy"
+							  label="工艺">
+							</el-table-column>
+							<el-table-column
+							  prop="gj"
+							  label="工具">
+							</el-table-column>
+							<el-table-column
+							  prop="hj"
+							  label="合计">
+							</el-table-column>
+						  </el-table>
+					</div>
 										
 				</div>
 				<!-- 结束 -->
@@ -64,7 +95,55 @@
 	export default {
 		data(){
 			return{
+				tableData: [{
+					scx:'东部C线',
+					dd:'显示',
+					PAA:'显示',
+					PTR:'显示',
+					gy:'显示',
+					gj:'显示',
+					hj:'显示'					
+				},
+				{
+					scx:'东部C线',
+					dd:'显示',
+					PAA:'显示',
+					PTR:'显示',
+					gy:'显示',
+					gj:'显示',
+					hj:'显示'					
+				},
+				{
+					scx:'东部C线',
+					dd:'显示',
+					PAA:'显示',
+					PTR:'显示',
+					gy:'显示',
+					gj:'显示',
+					hj:'显示'					
+				},
+				{
+					scx:'东部C线',
+					dd:'显示',
+					PAA:'显示',
+					PTR:'显示',
+					gy:'显示',
+					gj:'显示',
+					hj:'显示'					
+				},
+				{
+					scx:'合计',
+					dd:'显示',
+					PAA:'显示',
+					PTR:'显示',
+					gy:'显示',
+					gj:'显示',
+					hj:'显示'					
+				}
 				
+					
+					
+				]
 			}
 		},
 		methods:{
@@ -84,11 +163,21 @@
 				var currentdate = year + "年" + month + "月" + strDate + "日";
 				return currentdate;
 			},
+			tableRowClassName({row, rowIndex}) {
+			        if (rowIndex === 1) {
+			          return 'warning-row';
+			        } else if (rowIndex === 3) {
+			          return 'success-row';
+			        }
+			        return '';
+			      }
 			
 		}
 	}
 </script>
 
-<style scoped>
+<style >
 		@import "../../assets/css/pub.css";
+		@import "../../assets/css/quality.css";
 </style>
+

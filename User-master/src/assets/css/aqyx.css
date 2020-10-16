@@ -81,86 +81,105 @@
 }
 .mainbox .panel-main-aq .content {
   width: 100%;
-  height: 15rem;
+  height: auto;
+  padding: 0rem;
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-left: 1rem;
   margin-top: 0.5rem;
-  background: rgba(255, 255, 255, 0.13);
 }
 .mainbox .panel-main-aq .content .cross {
-  width: 230px;
-  height: 230px;
+  width: 280px;
+  height: 280px;
   position: relative;
-  background: rgba(255, 255, 255, 0.2);
+}
+.mainbox .panel-main-aq .content .cross .btn-cross {
+  background-color: #45ff2f;
+  height: 40px;
+  width: 40px;
 }
 .mainbox .panel-main-aq .content .cross .up {
   background: #c7ede9;
-  margin: 0 auto;
   display: block;
   position: absolute;
-  width: 100%;
-  height: 100px;
+  width: 120px;
+  height: 80px;
+  top: 0;
+  right: 0px;
+  left: 80px;
 }
 .mainbox .panel-main-aq .content .cross .left {
   background: #5ca7ba;
-  float: left;
   display: block;
   position: absolute;
-  width: 100%;
-  height: 100px;
+  width: 80px;
+  height: 120px;
+  top: 5rem;
+  right: 0px;
+  left: 0;
 }
-.mainbox .panel-main-aq .content .cross .icon {
-  float: left;
+.mainbox .panel-main-aq .content .cross .middle {
   background: #ff0000;
   display: block;
   position: absolute;
-  width: 100%;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+  top: 5rem;
+  right: 0px;
+  left: 80px;
 }
 .mainbox .panel-main-aq .content .cross .right {
   background: #93e0ff;
-  float: left;
   display: block;
   position: absolute;
-  width: 100px;
-  height: 100%;
+  width: 80px;
+  height: 120px;
+  top: 5rem;
+  right: 0px;
 }
 .mainbox .panel-main-aq .content .cross .down {
   background: #afd7ed;
   clear: both;
-  margin: 0 auto;
+  margin: auto;
   display: block;
   position: absolute;
-  width: 100%;
-  height: 100px;
-}
-.mainbox .panel-main-aq .content .cross .after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  background: black;
-  top: 15px;
-  right: 0px;
-}
-.mainbox .panel-main-aq .content .cross .before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100%;
-  background: black;
-  top: 0px;
-  right: 15px;
+  width: 120px;
+  height: 80px;
+  bottom: 0;
+  right: 80px;
 }
 .mainbox .panel-main-aq .content .explain {
-  width: 230px;
+  width: 400px;
   height: 230px;
-  background: rgba(255, 255, 255, 0.2);
+}
+.mainbox .panel-main-aq .content .explain .rem {
+  width: 100%;
+  height: 30px;
+  margin: 0.5rem 0;
+  padding: 0.3rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+.mainbox .panel-main-aq .content .explain .rem .btn-ex1 {
+  background-color: #45ff2f;
+  height: 15px;
+}
+.mainbox .panel-main-aq .content .explain .rem .btn-ex2 {
+  background-color: gray;
+  height: 15px;
+}
+.mainbox .panel-main-aq .content .explain .rem .btn-ex3 {
+  background-color: blue;
+  height: 15px;
+}
+.mainbox .panel-main-aq .content .explain .rem .btn-ex4 {
+  background-color: yellow;
+  height: 15px;
+}
+.mainbox .panel-main-aq .content .explain .rem .btn-ex5 {
+  background-color: red;
+  height: 15px;
 }
 .mainbox .panel-main-aq .row-bg {
   position: relative;

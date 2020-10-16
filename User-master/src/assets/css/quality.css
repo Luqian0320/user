@@ -104,3 +104,23 @@
   font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
 }
+.Table_style {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+  height: auto;
+  padding: 1rem .75rem;
+  margin-bottom: .1875rem;
+}
+.Table_style .el-table .warning-row {
+  background: #a2c0ff;
+}
+.Table_style .el-table .success-row {
+  background: #a2c0ff;
+}
+.Table_style .el-table th,
+.Table_style .el-table tr {
+  background-color: #e2e4e775;
+}

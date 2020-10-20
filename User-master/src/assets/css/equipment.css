@@ -1,0 +1,181 @@
+.eqm {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+  height: auto;
+  width: auto;
+}
+.eqm .eqm-panel {
+  position: relative;
+  display: block;
+  justify-content: center;
+  padding: 0 2rem;
+  margin: 1rem;
+  height: auto;
+  width: 18rem;
+}
+.eqm .eqm-panel .panel-e {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  margin: 1rem;
+  height: 3rem;
+}
+.eqm .eqm-panel .panel-e .h {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  color: #e2e4e7;
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.eqm .eqm-panel .panel-e .ht {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  color: #45ff2f;
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.eqm .eqm-panel .panel-e .hw {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  color: #45ff2f;
+  font-size: 25px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.eqm .eqm-panel .panel-e .hw1 {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  color: #ffaa00;
+  font-size: 25px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.eqm .eqm-panel .panel-e .hx {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  color: #ffaa00;
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.det {
+  display: block;
+  height: auto;
+  width: auto;
+}
+.det .det-panel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.07);
+  height: 15rem;
+  width: 68rem;
+}
+.det .det-panel .panel-up {
+  position: relative;
+  display: block;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.17);
+  height: 15rem;
+  width: 68rem;
+}
+.det .det-panel .panel-up .up-title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.3);
+  height: 2rem;
+  width: 6rem;
+}
+.det .det-panel .panel-up .up {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.3);
+  height: 15rem;
+  width: 68rem;
+}
+.det .det-panel .panel-left {
+  position: relative;
+  display: block;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+  margin-right: 1rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.17);
+  height: 15rem;
+  width: 24rem;
+}
+.det .det-panel .panel-left .title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.3);
+  height: 2rem;
+  width: 6rem;
+}
+.det .det-panel .panel-left .left {
+  display: flex;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin: .5rem 1rem .2rem 0rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.3);
+  height: 6.5rem;
+  width: 23rem;
+}
+.det .det-panel .panel-right {
+  position: relative;
+  display: block;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+  margin-left: 2rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.17);
+  height: 15rem;
+  width: 41rem;
+}
+.det .det-panel .panel-right .title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.3);
+  height: 2rem;
+  width: 6rem;
+}
+.det .det-panel .panel-right .right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin: .5rem 1rem .2rem 0rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.3);
+  height: 6.5rem;
+  width: 40rem;
+}

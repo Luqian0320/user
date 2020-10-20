@@ -43,19 +43,94 @@
 				<!-- 页面开始 -->
 				<div class="panel-main" >
 					<div class="eqm">
-						1
+						<div class="eqm-panel">
+							<div class="panel-e">
+								
+							</div>
+							<div class="panel-e">
+								<div class="h">
+									东C
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="h">
+									东D
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="h">
+									西B
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="h">
+									西C
+								</div>
+							</div>
+						</div>
+						<div class="eqm-panel">
+							<div class="panel-e">
+								<div class="hw">
+									故障时间
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="ht">
+									2020-10-16
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="ht">
+									2020-10-16
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="ht">
+									2020-10-16
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="ht">
+									2020-10-16
+								</div>
+							</div>
+						</div>
+						<div class="eqm-panel">
+							<div class="panel-e">
+								<div class="hw1">
+									停线率
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="hx">
+									20%
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="hx">
+									20%
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="hx">
+									20%e
+								</div>
+							</div>
+							<div class="panel-e">
+								<div class="hx">
+									20%
+								</div>
+							</div>
+						</div>
 					</div>
-					
-				
-					    
-
-										
+						
 				</div>
 				<!-- 结束 -->
 				<!-- 底部盒子 -->
-				<div class="panel-main-footer">
-					
-				</div>
+				<div class="btn">
+					 <el-button  round>日期选择</el-button>
+					  <el-button  round type="primary" @click="jumpdet">查看明细</el-button>
+					  </div>
 			</div>
 			
 		</div>
@@ -86,11 +161,25 @@
 				var currentdate = year + "年" + month + "月" + strDate + "日";
 				return currentdate;
 			},
+			jumpdet(){
+				this.$router.push('/DetailsInfoManage')
+				}
 			
 		}
 	}
 </script>
 
-<style scoped>
+<style >
 		@import "../../assets/css/pub.css";
+		@import "../../assets/css/equipment.css";
+		.btn{
+			
+			    position: relative;
+			    display: flex;
+			    justify-content: flex-end;
+			    height: 2.25rem;
+			    padding: 0 .1875rem;
+			    margin-top: 1.1875rem;
+			
+		}	
 </style>

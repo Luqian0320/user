@@ -4,6 +4,7 @@ const Hxzz = () => import('../views/hxzz/Hxzz.vue')
 
 const SaferunInfoManage = () => import('../../src/views/saferuninfo/SaferunInfoManage.vue')
 const TransferInfoManage = () => import('../../src/views/transferinfo/TransferInfoManage.vue')
+
 const QualityInfoManage = () => import('../../src/views/qualityinfo/QualityInfoManage.vue')
 const DRInfoManage = () => import('../../src/views/qualityinfo/DRInfoManage.vue')
 const FalseInfoManage = () => import('../../src/views/qualityinfo/FalseInfoManage.vue')
@@ -12,7 +13,9 @@ const ChangeInfoManage = () => import('../../src/views/qualityinfo/ChangeInfoMan
 const ProduceInfoManage = () => import('../../src/views/produceinfo/ProduceInfoManage.vue')
 const PersonnelInfoManage = () => import('../../src/views/personnelinfo/PersonnelInfoManage.vue')
 const EnergyInfoManage = () => import('../../src/views/energyinfo/EnergyInfoManage.vue')
+
 const EquipmentInfoManage = () => import('../../src/views/equipmentinfo/EquipmentInfoManage.vue')
+const DetailsInfoManage = () => import('../../src/views/equipmentinfo/DetailsInfoManage.vue')
 
 Vue.use(VueRouter)
 //定义路由，component代表组件
@@ -76,6 +79,11 @@ Vue.use(VueRouter)
   	path:'/EquipmentInfoManage',
   	name:'EquipmentInfoManage',
   	component:EquipmentInfoManage,
+  },
+  {
+  	path:'/DetailsInfoManage',
+  	name:'DetailsInfoManage',
+  	component:DetailsInfoManage,
   },
   
 ]

@@ -62,22 +62,22 @@ header .show-time {
   color: rgba(255, 255, 255, 0.7);
   font-size: 1.125rem;
 }
-.mainbox {
+.mainbox_hxzz {
   display: flex;
   min-width: 1025px;
   max-height: 1920px;
   margin: 0 auto;
   padding: .125rem .125rem 0;
 }
-.mainbox .column {
+.mainbox_hxzz .column_hxzz {
   flex: 3;
 }
-.mainbox .column:nth-child(2) {
+.mainbox_hxzz .column_hxzz:nth-child(2) {
   flex: 32;
   margin: 0 .125rem .1875rem;
   overflow: hidden;
 }
-.mainbox .panel {
+.mainbox_hxzz .panel {
   position: relative;
   height: 20.25rem;
   padding: 0 .1875rem .5rem;
@@ -85,7 +85,7 @@ header .show-time {
   border: 1px solid rgba(25, 186, 139, 0.17);
   background: rgba(255, 255, 255, 0.03);
 }
-.mainbox .panel::before {
+.mainbox_hxzz .panel::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -95,7 +95,7 @@ header .show-time {
   border-top: 2px solid #02a6b5;
   content: '';
 }
-.mainbox .panel::after {
+.mainbox_hxzz .panel::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -105,13 +105,13 @@ header .show-time {
   border-top: 2px solid #02a6b5;
   content: '';
 }
-.mainbox .panel .panel-footer {
+.mainbox_hxzz .panel .panel-footer {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
 }
-.mainbox .panel .panel-footer::before {
+.mainbox_hxzz .panel .panel-footer::before {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -121,7 +121,7 @@ header .show-time {
   border-bottom: 2px solid #02a6b5;
   content: '';
 }
-.mainbox .panel .panel-footer::after {
+.mainbox_hxzz .panel .panel-footer::after {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -131,61 +131,61 @@ header .show-time {
   border-bottom: 2px solid #02a6b5;
   content: '';
 }
-.mainbox .panel .panel-center {
+.mainbox_hxzz .panel .panel-center {
   display: flex;
   min-width: 1024px;
   max-height: 1290px;
   margin: 0 auto;
   padding: .125rem .125rem 0;
 }
-.mainbox .panel .panel-center .panel-column {
+.mainbox_hxzz .panel .panel-center .panel-column {
   flex: 8;
 }
-.mainbox .panel .panel-center .panel-column-small {
+.mainbox_hxzz .panel .panel-center .panel-column-small {
   position: relative;
   height: 5.75rem;
   padding: .1875rem ;
   margin: .1875rem;
 }
-.mainbox .panel .panel-center .panel-column-small-little {
+.mainbox_hxzz .panel .panel-center .panel-column-small-little {
   height: 5.5rem;
   padding: .2875rem;
   margin: 1rem .75rem;
   border: 1px solid rgba(25, 186, 139, 0.17);
   background-color: rgba(255, 255, 255, 0.87);
 }
-.mainbox .panel .panel-center .panel-column-small-little h3 {
+.mainbox_hxzz .panel .panel-center .panel-column-small-little h3 {
   font-size: 2.5rem;
   text-align: center;
   margin: 0.125rem 0 0.125rem;
   padding: 0.8rem 0;
   color: black;
 }
-.mainbox .panel .panel-center .panel-column-small-title {
+.mainbox_hxzz .panel .panel-center .panel-column-small-title {
   height: 3.5rem;
   margin: .1rem;
 }
-.mainbox .panel .panel-center .panel-column-small-title h1 {
+.mainbox_hxzz .panel .panel-center .panel-column-small-title h1 {
   font-size: 1.9em;
   text-align: center;
   margin: 0.125rem 0 0.125rem;
   color: rgba(255, 255, 255, 0.87);
 }
-.mainbox .panel .panel-center .panel-column-small-title h2 {
+.mainbox_hxzz .panel .panel-center .panel-column-small-title h2 {
   font-size: 1.9em;
   text-align: center;
   margin: 1.8rem 0.125rem;
   padding: 0.25rem;
   color: rgba(255, 255, 255, 0.87);
 }
-.mainbox .panel-2 {
+.mainbox_hxzz .panel-2 {
   position: relative;
   height: 8.25rem;
   margin-top: .1875rem;
   border: 1px solid rgba(25, 186, 139, 0.17);
   background: rgba(255, 255, 255, 0.01);
 }
-.mainbox .panel-2 .show-button {
+.mainbox_hxzz .panel-2 .show-button {
   position: absolute;
   top: 2.5rem;
   right: 2.25rem;
@@ -193,7 +193,7 @@ header .show-time {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.3125rem;
 }
-.mainbox .panel-2 .show-button .el-button--detal {
+.mainbox_hxzz .panel-2 .show-button .el-button--detal {
   display: inline-block;
   line-height: 1;
   white-space: nowrap;
@@ -214,7 +214,7 @@ header .show-time {
   font-size: 14px;
   border-radius: 4px;
 }
-.mainbox .panel-2 .detail-button {
+.mainbox_hxzz .panel-2 .detail-button {
   position: absolute;
   top: 2.5rem;
   right: 19.75rem;
@@ -222,7 +222,7 @@ header .show-time {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.3125rem;
 }
-.mainbox .panel-2 .block {
+.mainbox_hxzz .panel-2 .block {
   position: absolute;
   top: 2.5rem;
   left: 24.25rem;

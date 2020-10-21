@@ -1,23 +1,69 @@
 .panel-main-per {
   position: relative;
-  display: flex;
+  display: block;
   justify-content: center;
   padding: 0 .1875rem .5rem;
   margin: .875rem;
-  border: 1px solid rgba(25, 186, 139, 0.17);
-  background: rgba(255, 255, 255, 0.03);
 }
 .panel-main-per .panel-main-column {
   flex: 6;
 }
-.panel-main-per .per {
+.per {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+.per .per1 {
+  position: relative;
+  left: -27.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: auto;
+  text-align: center;
+  margin: 0;
+  padding: .3rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: #f5990cfc;
+}
+.per .per2 {
+  position: relative;
+  left: -54.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: auto;
+  text-align: center;
+  margin-top: 1rem;
+  padding: .3rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: #f5990cfc;
+}
+.per .per-panel-title {
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 0 .1875rem .5rem;
-  margin-bottom: .1875rem;
+  padding: 1.2rem .5rem;
+  margin: 1rem;
   border: 1px solid rgba(25, 186, 139, 0.17);
-  background: rgba(255, 255, 255, 0.07);
-  height: 10rem;
-  width: 20rem;
+  background: rgba(255, 255, 255, 0.5);
+  height: 4rem;
+  width: 8rem;
+  font-size: 1.2rem;
+}
+.per .per-panel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  background: rgba(255, 255, 255, 0.87);
+  height: 4rem;
+  width: 8rem;
 }

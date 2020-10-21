@@ -43,12 +43,90 @@
 				<!-- 页面开始 -->
 				<div class="panel-main-per" >
 					<div class="per">
-						<div class="per-panel">
-							
+						<div class="per1">
+                           SGMW
 						</div>
-						
+					</div>
+					<div class="per">
+						<div class="per-panel-title">
+							编制
+						</div>
 						<div class="per-panel">
-							
+							 11
+						</div>
+						<div class="per-panel-title">
+							实际人数
+						</div>
+						<div class="per-panel">
+							20
+						</div>
+						<div class="per-panel-title">
+							可用人数
+						</div>
+						<div class="per-panel">
+							16
+						</div>
+						<div class="per-panel-title">
+							出勤率
+						</div>
+						<div class="per-panel">
+							80%
+						</div>
+						<div class="per-panel-title">
+							应到
+						</div>
+						<div class="per-panel">
+							10
+						</div>
+						<div class="per-panel-title">
+							实到
+						</div>
+						<div class="per-panel">
+							10
+						</div>
+					</div>
+					<div class="per">
+						<hr size="4" color="yellow" width="80%" align="center">
+						<div class="per2">
+							外包
+						</div>
+					</div>
+					<div class="per">
+						<div class="per-panel-title">
+							编制
+						</div>
+						<div class="per-panel">
+							 11
+						</div>
+						<div class="per-panel-title">
+							实际人数
+						</div>
+						<div class="per-panel">
+							20
+						</div>
+						<div class="per-panel-title">
+							可用人数
+						</div>
+						<div class="per-panel">
+							16
+						</div>
+						<div class="per-panel-title">
+							出勤率
+						</div>
+						<div class="per-panel">
+							80%
+						</div>
+						<div class="per-panel-title">
+							应到
+						</div>
+						<div class="per-panel">
+							10
+						</div>
+						<div class="per-panel-title">
+							实到
+						</div>
+						<div class="per-panel">
+							10
 						</div>
 					</div>
 					

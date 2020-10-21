@@ -8,13 +8,13 @@
 
 		</header>
 		<!--main盒子主体部分-->
-		<div class="mainbox">
+		<div class="mainbox_hxzz">
 			<!--left box-->
-			<div class="column">
+			<div class="column_hxzz">
 
 			</div>
 			<!--center box-->
-			<div class="column">
+			<div class="column_hxzz">
 				<div class="panel">
 					<div class="panel-center">
 						<div class="panel-column">
@@ -146,7 +146,7 @@
 				</div>
 			</div>
 			<!--right box-->
-			<div class="column"></div>
+			<div class="column_hxzz"></div>
 		</div>
 	</div>
 </template>

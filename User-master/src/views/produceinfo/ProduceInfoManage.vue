@@ -41,7 +41,7 @@
 			<div  class="column">
 				
 				<!-- 页面开始 -->
-				<div id="" class="panel-main" >
+				<div id="" class="panel-main-pr" >
 					<div class="panel-main-column-small">
 						<div class="title"></div>
 						<div class="title"><h1>目标台量</h1></div>
@@ -82,7 +82,7 @@
 				</div>
 				<!-- 结束 -->
 				<!-- 底部盒子 -->
-				<div class="panel-main-footer">
+				<!-- <div class="panel-main-footer">
 					<div class="show-button">
 							
 							<el-button type="primary" @click="jumpHxzz">返回首页</el-button>
@@ -90,7 +90,7 @@
 					<div class="btn-next">
 						
 					</div>
-				</div>
+				</div> -->
 			</div>
 			
 		</div>

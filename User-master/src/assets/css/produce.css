@@ -1,3 +1,13 @@
+.panel-main-pr {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 .1875rem .5rem;
+  margin-bottom: .1875rem;
+}
+.panel-main-pr .panel-main-column {
+  flex: 6;
+}
 .panel-main-column-small {
   height: auto;
   padding: .1875rem;

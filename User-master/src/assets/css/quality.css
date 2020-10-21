@@ -12,8 +12,6 @@
   height: auto;
   margin: 0.5rem 1rem 0.5rem 1rem;
   padding: .5rem;
-  border: 1px solid rgba(25, 186, 139, 0.17);
-  background: rgba(255, 255, 255, 0.1);
 }
 .panel-qua .qua-up .up {
   position: relative;
@@ -51,8 +49,6 @@
   height: auto;
   margin: 2rem 1rem;
   padding: .5rem;
-  border: 1px solid rgba(25, 186, 139, 0.17);
-  background: rgba(255, 255, 255, 0.1);
 }
 .panel-qua .qua-dowm .down {
   position: relative;
@@ -123,4 +119,10 @@
 .Table_style .el-table th,
 .Table_style .el-table tr {
   background-color: #e2e4e775;
+}
+.Table_style .el-table td,
+.Table_style .el-table th.is -leaf,
+.Table_style .el-table,
+.Table_style .el--group {
+  border-color: black;
 }

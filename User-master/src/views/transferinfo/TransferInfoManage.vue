@@ -77,8 +77,7 @@
 				 
 				<!-- 流转车数据结束 -->
 				<!-- 底部盒子 -->
-				<div class="panel-main-footer">
-				</div>
+				
 				<div class="btn-next">
 				     <el-date-picker
 				       v-model="value1"

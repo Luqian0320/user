@@ -41,8 +41,12 @@
 			<div  class="column">
 				
 				<!-- 页面开始 -->
-				<div class="panel-main" >
+				<div class="panel-main-per" >
 					<div class="per">
+						<div class="per-panel">
+							
+						</div>
+						
 						<div class="per-panel">
 							
 						</div>
@@ -55,9 +59,9 @@
 				</div>
 				<!-- 结束 -->
 				<!-- 底部盒子 -->
-				<div class="panel-main-footer">
+				<!-- <div class="panel-main-footer">
 					
-				</div>
+				</div> -->
 			</div>
 			
 		</div>

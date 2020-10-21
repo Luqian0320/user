@@ -41,7 +41,7 @@
 			<div  class="column">
 				
 				<!-- 页面开始 -->
-				<div class="panel-main" >
+				<div class="panel-main-eqm" >
 					<div class="eqm">
 						<div class="eqm-panel">
 							<div class="panel-e">
